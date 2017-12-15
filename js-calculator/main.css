@@ -1,6 +1,7 @@
 body {
   font-family: 'Orbitron', sans-serif;
-  background-color: #818181;
+  background-color: #baecec !important;
+
 }
 
 #calculator {
@@ -9,10 +10,10 @@ body {
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #dfd8d0;
+  background-color: white;
   border: 2px solid #908b85;
   border-radius: 20px;
-  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+  box-shadow: 1px 5px 1px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
 }
 
 #title {
@@ -43,14 +44,17 @@ body {
   display: inline-block;
   width: 280px;
   height: auto;
+  margin-bottom: 10px;
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 30px;
+  padding: 10px;
 }
 
 button {
   border-radius: 8px;
   border: none;
   background-color: #3a3a3a;
+  margin-bottom: 5px !important;
   margin: 0 4px 10px 8px;
   height: 40px;
   width: 50px;
@@ -67,24 +71,26 @@ button:active {
 }
 
 #topAdjust {
-  margin-top: -52px;
+  margin-top: -50px;
 }
 
 #equalButton {
   position: absolute;
-  margin-left: 12px;
-  margin-top: -50px;
+  margin-left: 5px;
+  margin-top: -45px;
   height: 90px;
 }
 
 #zeroButton {
-  width: 117px;
+  width: 105px;
+  margin-top: 5px;
 }
 
 .red {
   font-size: 14px;
   background-color: #a72d45;
   box-shadow: 0px 3px 0px 0px #671c2a;
+  margin-bottom: 10px;
 }
 
 #footer {
